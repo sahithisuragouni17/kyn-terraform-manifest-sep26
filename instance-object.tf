@@ -7,17 +7,17 @@ variable "instance" {
   }))
   default = {
     "web1" = {
-      instance_type = "t3.micro"
+      instance_type = "t2.micro"
       availablity_zone = "us-east-1a"
     subnet_key = "subnet1"
     }
     "web2" = {
-      instance_type = "t3.medium"
+      instance_type = "t2.micro"
       availablity_zone = "us-east-1b"
     subnet_key = "subnet2"
     }
     "web3" = {
-      instance_type = "t3.small"
+      instance_type = "t2.micro"
       availablity_zone = "us-east-1c"
     subnet_key = "subnet3"
     }
